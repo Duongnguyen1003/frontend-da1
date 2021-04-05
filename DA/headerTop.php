@@ -23,7 +23,7 @@
                 </a>
             </li>
             <li class="inline-block pr-5 ml-5">
-                <a href="#">
+                <a href="cart.php">
                     <span class="text-base text-white hover:text-yellow-400"><i class="fas fa-cart-plus py-2 pr-3"></i>Tour
                         của bạn</span>
                 </a>

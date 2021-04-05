@@ -32,38 +32,43 @@
             <form action="#" method="POST" class="px-40">
                 <div class="my-4">
                     <span>Tên đăng nhập</span>
-                    <input class="my-1 px-2 py-1 border focus:outline-none block w-full" type="text" placeholder="" id="users_name" name="users_name">
+                    <input class="my-1 px-2 py-1 border focus:outline-none block w-full" type="text" placeholder="" id="users_name" name="users_name" required>
                 </div>
                 <!-- end user name -->
                 <div class="my-4">
                     <span>Mật khẩu</span>
-                    <input class="my-1 px-2 py-1 border focus:outline-none block w-full" type="password" placeholder="" id="pass" name="pass">
+                    <input class="my-1 px-2 py-1 border focus:outline-none block w-full" type="password" placeholder="" id="pass" name="pass" required>
                 </div>
                 <!-- end password -->
                 <div class="my-4">
                     <span>Xác nhận mật khẩu</span>
-                    <input class="my-1 px-2 py-1 border focus:outline-none block w-full" type="password" placeholder="" id="pass_confirm" name="pass_confirm">
+                    <input class="my-1 px-2 py-1 border focus:outline-none block w-full" type="password" placeholder="" id="pass_confirm" name="pass_confirm" required>
                     <span></span>
                 </div>
                 <!-- end confirm password -->
                 <div class="my-4">
                     <span>Họ và tên</span>
-                    <input class="my-1 px-2 py-1 border focus:outline-none block w-full" type="text" placeholder="" id="lastname" name="lastName">
+                    <input class="my-1 px-2 py-1 border focus:outline-none block w-full" type="text" placeholder="" id="lastname" name="lastName" required>
                 </div>
                 <!-- end lastname -->
                 <div class="my-4">
                     <span>Email</span>
-                    <input class="my-1 px-2 py-1 border focus:outline-none block w-full" type="text" placeholder="" id="email" name="email">
+                    <input class="my-1 px-2 py-1 border focus:outline-none block w-full" type="email" placeholder="" id="email" name="email" required>
                 </div>
                 <!-- end mail -->
                 <div class="my-4">
                     <span>Số điện thoại</span>
-                    <input class="my-1 px-2 py-1 border focus:outline-none block w-full" type="text" placeholder="" id="phone" name="phone">
+                    <input class="my-1 px-2 py-1 border focus:outline-none block w-full" pattern="0[0-9\s.-]{9,13}" type="text" placeholder="" id="phone" name="phone" required>
                 </div>
                 <!-- end phone -->
+                <div class="my-4">
+                    <span>Ảnh đại diện</span>
+                    <input class="my-1 px-2 py-1  focus:outline-none block w-full" type="file" placeholder="" id="img" name="img">
+                </div>
+                <!-- end image -->
                 <div class="mt-4 flex justify-end">
                     <!-- <a class="hover:underline hover:text-blue-500 block" href="">Quên mật khẩu</a> -->
-                    <p class="inline-block ">Bạn đã có tài khoản <a href="#" class="text-blue-400">Đăng nhập</a> ngay!</p>
+                    <p class="inline-block ">Bạn đã có tài khoản <a href="login.php" class="text-blue-400">Đăng nhập</a> ngay!</p>
                 </div>
                 <div class="mt-10 border-none relative flex justify-center">
 

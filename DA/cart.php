@@ -106,35 +106,43 @@
                 <span>Tên tour</span>
                 <input disabled class="my-1 bg-gray-100 bg-opacity-50 px-2 py-1 border focus:outline-none block w-full " type="text" value="Lăng bác - văn miếu - hỏa lò" id="lastname" name="lastName">
             </div>
-            <div class=" ">
-                <span>Họ tên</span>
-                <input class="my-1 bg-gray-100 bg-opacity-50 px-2 py-1 border focus:outline-none block w-full" type="text" placeholder="Họ tên" id="lastname" name="lastName">
+            <div class="mt-3">
+                <span>Tên đăng nhập</span>
+                <input class="my-1 bg-gray-100 bg-opacity-50 px-2 py-1 border focus:outline-none block w-full" type="text" placeholder="Tên đăng nhập" id="lastname" name="lastName">
             </div>
             <!-- end lastname -->
-            <div class=" ">
+            <div class="mt-3 ">
                 <span>Email</span>
                 <input class="my-1 bg-gray-100 bg-opacity-50 px-2 py-1 border focus:outline-none block w-full" type="text" placeholder="Email" id="email" name="email">
             </div>
             <!-- end mail -->
-            <div class=" ">
+            <div class="mt-3 ">
                 <span>Số điện thoại</span>
                 <input class="my-1 bg-gray-100 bg-opacity-50 px-2 py-1 border focus:outline-none block w-full" type="text" placeholder="Số điện thoại" id="phone" name="phone">
             </div>
-            <div class=" ">
+            <div class=" mt-3">
                 <span>Địa chỉ</span>
                 <input class="my-1 bg-gray-100 bg-opacity-50 px-2 py-1 border focus:outline-none block w-full" type="text" placeholder="Địa chỉ" id="address" name="phone">
             </div>
-            <div class=" ">
+            <div class=" mt-3">
                 <span>Người lớn</span>
                 <input class="my-1 bg-gray-100 bg-opacity-50 px-2 py-1 border focus:outline-none block w-full" type="number" placeholder="1" id="address" name="phone">
             </div>
-            <div class=" ">
+            <div class="mt-3 ">
                 <span>Trẻ em</span>
                 <input class="my-1 bg-gray-100 bg-opacity-50 px-2 py-1 border focus:outline-none block w-full" type="number" placeholder="" id="address" name="phone">
             </div>
-            <div class=" ">
+            <div class="mt-3 ">
                 <span>Ngày đi</span>
                 <input class="my-1 bg-gray-100 bg-opacity-50 px-2 py-1 border focus:outline-none block w-full" type="date" placeholder="" id="address" name="phone">
+            </div>
+            <div class="mt-3">
+                <span id="voucher">Chọn VOUCHER</span>
+                <select class="my-1 bg-gray-100 bg-opacity-50 px-2 py-1 border focus:outline-none block w-full font-bold" name="" id="selectVoucher">
+                    <option class="font-bold" value="">HN042021</option>
+                    <option class="font-bold" disabled value="">HN052021</option>
+                    <option class="font-bold" value="">HN062021</option>
+                </select>
             </div>
             <div class="flex justify-end">
                 <p class="mt-5">Tổng tiền: <span class="text-red-500 text-2xl font-bold italic">1,500,000</span> ₫</p>
@@ -148,6 +156,14 @@
     <footer class="background4 bg-opacity-10 mt-10">
         <?php require "footer.php"; ?>
     </footer>
+    <script>
+        var voucher = document.getElementById("voucher");
+        var selectVoucher = document.getElementById("selectVoucher");
+        selectVoucher.style.display = "none";
+        voucher.addEventListener("click", function() {
+            selectVoucher.style.display = "block";
+        })
+    </script>
 </body>
 
 </html>

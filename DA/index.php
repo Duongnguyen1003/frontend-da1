@@ -61,52 +61,6 @@
             </div>
         </div>
     </header>
-    <!-- <section class="container mx-auto my-10">
-        <div class="text-center">
-            <p>Những điểm đến trên cả tuyệt vời</p>
-            <div class="py-5">
-                <h3 class="font-bold text-2xl uppercase">tour lễ 30/04 - 01/05</h3>
-                <img class="w-20 mx-auto mt-2" src="./content/image/gachvang.png" alt="">
-            </div>
-        </div>
-        <div class="topLike">
-            <a class="mx-6 relative transform group hover:opacity-90 focus:outline-none border-white" href="#">
-                <img class="rounded-full" src="./content/image/tour nội thành/gom-bat-trang.jpg" alt="">
-                <p class="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center uppercase text-white hover:text-blue-400">
-                    làng gốm</p>
-            </a>
-            <a class="mx-6 relative transform group hover:opacity-90 focus:outline-none border-white" href="#">
-                <img class="rounded-full" src="./content/image/tour nội thành/hoang-thanh.jpg" alt="">
-                <p class="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center uppercase text-white hover:text-blue-400">
-                    làng gốm</p>
-            </a>
-            <a class="mx-6 relative transform group hover:opacity-90 focus:outline-none border-white" href="#">
-                <img class="rounded-full" src="./content/image/tour nội thành/chua-huong.jpg" alt="">
-                <p class="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center uppercase text-white hover:text-blue-400">
-                    làng gốm</p>
-            </a>
-            <a class="mx-6 relative transform group hover:opacity-90 focus:outline-none border-white" href="#">
-                <img class="rounded-full" src="./content/image/tour nội thành/chua-tran-quoc.jpg" alt="">
-                <p class="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center uppercase text-white hover:text-blue-400">
-                    làng gốm</p>
-            </a>
-            <a class="mx-6 relative transform group hover:opacity-90 focus:outline-none border-white" href="#">
-                <img class="rounded-full" src="./content/image/tour nội thành/con-vien-le-nin.jpg" alt="">
-                <p class="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center uppercase text-white hover:text-blue-400">
-                    làng gốm</p>
-            </a>
-            <a class="mx-6 relative transform group hover:opacity-90 focus:outline-none border-white" href="#">
-                <img class="rounded-full" src="./content/image/tour nội thành/ho-guom.jpg" alt="">
-                <p class="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center uppercase text-white hover:text-blue-400">
-                    làng gốm</p>
-            </a>
-            <a class="mx-6 relative transform group hover:opacity-90 focus:outline-none border-white" href="#">
-                <img class="rounded-full" src="./content/image/tour nội thành/pho-co.jpg" alt="">
-                <p class="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center uppercase text-white hover:text-blue-400">
-                    làng gốm</p>
-            </a>
-        </div>
-    </section> -->
     <section class="container mx-auto my-10">
         <div class="text-center">
             <p>Điểm đến trên cả tuyệt vời</p>
@@ -173,18 +127,19 @@
         <div class="noiThanh container mx-auto">
             <?php
             include "../../DA1/examples/local.php";
-            $sqll = "select id_tour, price, name_tour, images.image_main, tour.id_image from tour join images on tour.id_image=images.id_image ";
+            // $sqll = "select id_tour, price, name_tour, images.image_main, tour.id_image from tour join images on tour.id_image=images.id_image ";
+            $sqll = "SELECT * FROM tour join images ON tour.id_image = images.id_image";
             $totall = $local->query($sqll);
             foreach ($totall as $values) {
             ?>
                 <article class="mx-6 relative py-10 group focus:outline-none outline-none">
-                    <a href="./product.php?id_tour=<?php echo $values['id_tour'] ?>">
+                    <a class="focus:outline-none" href="./product.php?id_tour=<?php echo $values['id_tour'] ?>">
                         <div class="overflow-hidden rounded-md border border-white">
                             <img class="transition duration-300 transform group-hover:scale-105" src="../assets/img/<?php echo $values['image_main'] ?>" alt="">
                         </div>
                         <div class="absolute left-0 right-0 bottom-0 mb-16 mx-px flex justify-center items-center text-white shadow-lg bg-black bg-opacity-50 hover:text-blue-400">
                             <div class="text-center ">
-                                <h4 class="uppercase"><?php echo $values['name_tour'] ?></h4>
+                                <h4 class="uppercase px-5"><?php echo $values['name_tour'] ?></h4>
                                 <p class="my-px">
                                     <i class="fas fa-star text-yellow-300"></i>
                                     <i class="fas fa-star text-yellow-300"></i>
