@@ -35,7 +35,7 @@
     <main>
         <section class="mx-96 border my-10 px-32 py-10 shadow-md">
             <form action="postLogin.php" method="POST" class="px-40">
-                <h1 class="text-center text-3xl">ĐĂNG KÝ THÀNH VIÊN</h1>
+                <h1 class="text-center text-3xl uppercase">đăng nhập</h1>
                 <div class="mt-4">
                     <span>Tên đăng nhập</span>
                     <input class="my-1 px-2 py-1 border focus:outline-none block w-full" type="text" placeholder="" id="users_name" name="users_name">
@@ -53,8 +53,9 @@
                 <button class="block w-full bg-blue-300 border rounded-lg mt-4 py-2 text-lg focus:outline-none hover:bg-white hover:border-blue-300" name="btn_login">Đăng
                     nhập</button>
             </form>
-            <div class="mt-4 flex justify-end px-40">
+            <div class="mt-4 flex justify-between px-40">
                 <!-- <a class="hover:underline hover:text-blue-500 block" href="">Quên mật khẩu</a> -->
+                <a class="hover:underline inline-block text-blue-500" href="forgotPassword.php">Quên mật khẩu?</a>
                 <div class="">
                     <span class="inline-block ">Bạn chưa có tài khoản?</span>
                     <a class="hover:underline inline-block text-blue-500" href="registration.php">Đăng

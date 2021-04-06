@@ -138,11 +138,26 @@
             </div>
             <div class="mt-3">
                 <span id="voucher">Chọn VOUCHER</span>
-                <select class="my-1 bg-gray-100 bg-opacity-50 px-2 py-1 border focus:outline-none block w-full font-bold" name="" id="selectVoucher">
-                    <option class="font-bold" value="">HN042021</option>
-                    <option class="font-bold" disabled value="">HN052021</option>
-                    <option class="font-bold" value="">HN062021</option>
-                </select>
+                <div id="selectVoucher">
+
+                    <div id="voucher1" class="flex cursor-pointer">
+                        <img class="w-32 h-24" src="./content/image/1.jpg" alt="">
+                        <span>dsh;hdsgdhfghdlfghldisu</span>
+
+                    </div>
+
+
+                    <div id="voucher2" class="flex cursor-pointer">
+                        <img class="w-32 h-24" src="./content/image/1.jpg" alt="">
+                        <span>dsh;hdsgdhfghdlfghldisu</span>
+
+                    </div>
+                    <div id="voucher3" class="flex cursor-pointer">
+                        <img class="w-32 h-24" src="./content/image/1.jpg" alt="">
+                        <span>dsh;hdsgdhfghdlfghldisu</span>
+
+                    </div>
+                </div>
             </div>
             <div class="flex justify-end">
                 <p class="mt-5">Tổng tiền: <span class="text-red-500 text-2xl font-bold italic">1,500,000</span> ₫</p>
@@ -159,10 +174,15 @@
     <script>
         var voucher = document.getElementById("voucher");
         var selectVoucher = document.getElementById("selectVoucher");
+        var voucher1 = document.getElementById("voucher1");
+        var voucher2 = document.getElementById("voucher2");
+        var voucher3 = document.getElementById("voucher3");
         selectVoucher.style.display = "none";
         voucher.addEventListener("click", function() {
             selectVoucher.style.display = "block";
         })
+        voucher1.style.filter = "grayscale(100%)";
+        voucher2.style.filter = "grayscale(100%)";
     </script>
 </body>
 
