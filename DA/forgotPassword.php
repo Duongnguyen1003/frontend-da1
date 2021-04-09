@@ -10,14 +10,20 @@
     <link rel="stylesheet" type="text/css" href="./content/slick-1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="./content/slick-1.8.1/slick/slick-theme.css" />
     <link rel="stylesheet" href="./content/build/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap" rel="stylesheet">
     <style>
         .background4 {
             background-image: url('./content/image/background/background4.jpg');
         }
+
+        .nunito {
+            font-family: 'Nunito', sans-serif;
+        }
     </style>
 </head>
 
-<body>
+<body class="nunito">
     <header>
         <div class="bg-blue-400 bg-opacity-50">
             <?php require "headerTop.php"; ?>
@@ -31,17 +37,17 @@
             <h1 class="text-center text-3xl uppercase">Thay đổi mật khẩu</h1>
             <form action="#" method="POST" class="px-40">
                 <div class="my-4">
-                    <span>Mật khẩu cũ</span>
+                    <label>Mật khẩu cũ</label>
                     <input class="my-1 px-2 py-1 border focus:outline-none block w-full" type="password" placeholder="" id="pass" name="pass" required>
                 </div>
                 <!-- end old password -->
                 <div class="my-4">
-                    <span>Mật khẩu mới</span>
+                    <label>Mật khẩu mới</label>
                     <input class="my-1 px-2 py-1 border focus:outline-none block w-full" type="password" placeholder="" id="pass" name="pass" required>
                 </div>
                 <!-- end new password -->
                 <div class="my-4">
-                    <span>Xác nhận mật khẩu</span>
+                    <label>Xác nhận mật khẩu</label>
                     <input class="my-1 px-2 py-1 border focus:outline-none block w-full" type="password" placeholder="" id="pass_confirm" name="pass_confirm" required>
                 </div>
                 <!-- end confirm password -->

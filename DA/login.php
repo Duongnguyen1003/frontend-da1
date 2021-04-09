@@ -37,17 +37,17 @@
             <form action="postLogin.php" method="POST" class="px-40">
                 <h1 class="text-center text-3xl uppercase">đăng nhập</h1>
                 <div class="mt-4">
-                    <span>Tên đăng nhập</span>
+                    <label>Tên đăng nhập</label>
                     <input class="my-1 px-2 py-1 border focus:outline-none block w-full" type="text" placeholder="" id="users_name" name="users_name">
                 </div>
                 <!-- end user name -->
                 <div class="mt-4">
-                    <span>Mật khẩu</span>
+                    <label>Mật khẩu</label>
                     <input class="my-1 px-2 py-1 border focus:outline-none block w-full" type="password" placeholder="" id="pass" name="pass">
                 </div>
                 <div class="flex items-center pt-2">
                     <input type="checkbox">
-                    <span class="px-2">Ghi nhớ mật khẩu</span>
+                    <label class="px-2">Ghi nhớ mật khẩu</label>
                 </div>
                 <!-- end password -->
                 <button class="block w-full bg-blue-300 border rounded-lg mt-4 py-2 text-lg focus:outline-none hover:bg-white hover:border-blue-300" name="btn_login">Đăng
@@ -57,7 +57,7 @@
                 <!-- <a class="hover:underline hover:text-blue-500 block" href="">Quên mật khẩu</a> -->
                 <a class="hover:underline inline-block text-blue-500" href="forgotPassword.php">Quên mật khẩu?</a>
                 <div class="">
-                    <span class="inline-block ">Bạn chưa có tài khoản?</span>
+                    <label class="inline-block ">Bạn chưa có tài khoản?</label>
                     <a class="hover:underline inline-block text-blue-500" href="registration.php">Đăng
                         ký</a>
                 </div>

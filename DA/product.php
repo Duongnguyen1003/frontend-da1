@@ -194,41 +194,6 @@
                                 <img class="mx-auto my-5" src="../assets/img/<?php echo $totall['image_plan3'] ?>" alt="">
                             </div>
                         </div>
-                        <div class="mt-10">
-                            <div class="">
-                                <span class="text-2xl container mx-auto text-red-500">GIÁ TOUR TRỌN GÓI CHO 01 KHÁCH</span>
-                                <div class="border-b-2 rounded-full bg-gray-200 w-24 mt-2"></div>
-                            </div>
-                            <table class="mx-auto my-10 ">
-                                <thead>
-                                    <tr>
-                                        <th class="border py-1 font-bold">GIÁ TOUR BAO GỒM</th>
-                                        <th class="border py-1 font-bold">GIÁ TOUR CHƯA BAO GỒM</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="border px-5">
-                                            <ul>
-                                                <li class="list-disc list-inside py-1">Phương tiện: Ôtô máy lạnh</li>
-                                                <li class="list-disc list-inside py-1">Ăn trưa 1 bữa</li>
-                                                <li class="list-disc list-inside py-1">Hướng dẫn viên: Chuyên nghiệp, phục vụ nhiệt tình, thành thạo, chu đáo suốt tuyến.</li>
-                                                <li class="list-disc list-inside py-1">Vé tham quan vào cửa một lần tại các điểm tham quan</li>
-                                                <li class="list-disc list-inside py-1">Bảo hiểm du lịch suốt tuyến</li>
-                                                <li class="list-disc list-inside py-1">Quà tặng: Nước uống, khăn lạnh trên phương tiện vận chuyển: 01 chai + 01 khăn lạnh/ ngày.</li>
-                                            </ul>
-                                        </td>
-                                        <td class="border px-5">
-                                            <ul>
-                                                <li class="list-disc list-inside py-1">Chi tiêu cá nhân ngoài chương trình</li>
-                                                <li class="list-disc list-inside py-1">Thuế VAT 10%</li>
-                                                <li class="list-disc list-inside py-1">Thăm quan ngoài chương trình tour</li>
-                                            </ul>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
                         <!-- <div>
                             <div class="">
                                 <h2 class="text-3xl container mx-auto text-red-500">GIÁ TOUR TRỌN GÓI CHO 01 KHÁCH</h2>

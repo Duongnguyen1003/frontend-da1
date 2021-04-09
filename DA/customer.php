@@ -107,7 +107,7 @@
                 <!-- col2 -->
                 <div>
                     <div id="screen2">
-                        <img class="rounded-md" src="./content/image/Thẻ thành viên/10.png" alt="">
+                        <img class="rounded-md" src="./content/image/Thẻ thành viên/10.1.png" alt="">
                         <div class="bg-white rounded-md py-6 my-10">
                             <h3 class="text-blue-500 font-bold text-2xl">Voucher SUN</h3>
                             <p class="pt-3">Ưu đãi đến 10%</p>
