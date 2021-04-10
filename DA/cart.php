@@ -251,7 +251,7 @@
 
                     </ul>
                 </div>
-                <input class="mx-auto my-auto col-span-1 focus:outline-none" type="radio" name="check" id="">
+                <input value="dd" class="mx-auto my-auto col-span-1 focus:outline-none" type="radio" name="check" id="">
             </div>
             <div id="voucher3" class="grid grid-cols-4 gap-5 cursor-pointer mx-5 my-5 shadow-md">
                 <img class="col-span-1 my-auto" src="./content/image/Thẻ thành viên/10.1.png" alt="">
@@ -266,7 +266,7 @@
             </div>
             <span class="text-gray-500 mx-5">* Đã hiển thị tất cả Hanoitourist voucher thuộc mục Voucher của hãng cung cấp.</span>
             <div class="flex justify-end mx-5 my-10">
-                <button class="border hover:bg-yellow-500 border-yellow-500 px-14 py-1 mx-3 focus:outline-none"><a href="cart.php">Trở lại</a></button>
+                <button id="back" class="border hover:bg-yellow-500 border-yellow-500 px-14 py-1 mx-3 focus:outline-none"><a href="#">Trở lại</a></button>
                 <button id="clickOk" class="border bg-yellow-500 border-yellow-500 px-14 py-1">OK</button>
             </div>
         </form>
@@ -280,13 +280,16 @@
         var voucher3 = document.getElementById("voucher3");
         var showVoucher = document.getElementById("showVoucher");
         var nameVoucher = document.querySelector(".nameVoucher");
+        var back = document.getElementById("back");
         selectVoucher.style.display = "none";
+        var check = document.getElementsByName("check");
 
 
         voucher.addEventListener("click", function() {
             selectVoucher.style.display = "block";
             main.style.background = "#999999";
             main.style.opacity = "0.5";
+
 
             // function disableBodyScroll({
             //     savePosition = false
@@ -308,8 +311,14 @@
             //     savePosition: true
             // });
         })
+        back.addEventListener("click", function() {
+            selectVoucher.style.display = "none";
+            main.style.background = "white";
+            main.style.opacity = "1";
+        })
         voucher1.style.filter = "grayscale(100%)";
         voucher2.style.filter = "grayscale(100%)";
+
 
         // var clickOk = document.getElementById("clickOk");
         // clickOk.addEventListener("click", function() {

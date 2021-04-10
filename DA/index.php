@@ -42,7 +42,7 @@
 <body class="nunito">
     <header>
         <div class="relative">
-            <div class="sliderBanner">
+            <div class="sliderBanner  overflow-hidden">
                 <img class="focus:outline-none" src="./content/image/sliderBanner/tran-quoc.jpg" alt="">
                 <img class="focus:outline-none" src="./content/image/sliderBanner/tran-quoc.jpg" alt="">
             </div>
