@@ -46,11 +46,11 @@
                 <img class="focus:outline-none" src="./content/image/sliderBanner/tran-quoc.jpg" alt="">
                 <img class="focus:outline-none" src="./content/image/sliderBanner/tran-quoc.jpg" alt="">
             </div>
-            <div class="bg-blue-400 bg-opacity-50 absolute top-0 left-0 right-0">
-                <?php require "headerTop.php"; ?>
-            </div>
             <div id="navbar" class="absolute top-0 left-0 right-0 flex mt-8 px-32 bg-blue-300">
                 <?php require "menu.php"; ?>
+            </div>
+            <div class="bg-blue-400 bg-opacity-50 absolute top-0 left-0 right-0">
+                <?php require "headerTop.php"; ?>
             </div>
             <div class="absolute bottom-0 left-0 mx-72 my-20">
                 <p class="text-white text-base">HANOITOURIST – ĐI VÀ TRẢI NGHIỆM MỌI THỨ</p>

@@ -70,7 +70,7 @@ $totals = $local->query($sqls)->fetchAll();
 <div class="col-span-3 ml-5 mt-5">
     <form action="" method="GET" class="flex text-center justify-center items-center py-3 ml-5">
         <div class="bg-white px-4 py-px rounded-full ml-10 flex">
-            <button name="btn_search"><i class="fas fa-search text-gray-500"></i></button>
+            <button name="btn_search" class="focus:outline-none"><i class="fas fa-search text-gray-500"></i></button>
             <input type="text" placeholder="Search..." class="focus:outline-none w-64 text-base py-1 pl-3" name="search">
         </div>
     </form>

@@ -30,11 +30,11 @@
 <body class="nunito">
     <header class="relative">
         <img src="./content/image/background/bg-noithanh1.jpg" alt="">
+        <div id="navbar" class="absolute top-0 left-0 right-0 flex mt-8 px-32 bg-blue-300">
+            <?php require "menu.php"; ?>
+        </div>
         <div class="bg-blue-400 bg-opacity-50 absolute top-0 left-0 right-0">
             <?php require "headerTop.php"; ?>
-        </div>
-        <div class="absolute top-0 left-0 right-0 flex mt-8 px-32 bg-blue-300 bg-opacity-50">
-            <?php require "menu.php"; ?>
         </div>
         <div class="absolute bottom-0 left-0 right-0 mx-64 pt-5 bg-white bg-opacity-80 rounded-t-md">
             <h3 class="font-bold text-2xl uppercase text-center "><a href="">điểm đến nội thành</a></h3>
@@ -130,36 +130,31 @@
 
         </div>
         <div class="col-span-10 mx-10">
-            <div class="flex justify-between">
-                <div class="flex justify-center items-center">
-                    <h2 class="text-xl font-bold my-3 mx-2 uppercase"><a href="#">Danh sách Tour </a></h2>
-                    <a class="px-3 py-2 text-sm bg-yellow-400 mx-2 border border-black hover:border-yellow-400" href="#">Tour Yêu Thích</a>
-                    <a class="px-3 py-2 text-sm bg-white mx-2 border border-black hover:border-yellow-400" href="#">Tour mới</a>
-                    <select class="px-3 py-2 text-sm bg-white mx-2 focus:outline-none border border-black hover:border-yellow-400" name="" id="">
-                        <option cate="gia">Giá</option>
-                        <option cate="thap">Giá: Thấp đến cao</option>
-                        <option cate="cao">Giá: Cao đến thấp</option>
-                    </select>
-                    <select class="px-3 w-40 py-2 text-sm bg-white mx-2 focus:outline-none border border-black hover:border-yellow-400" name="" id="">
-                        <option cate="">Điểm khởi hành</option>
-                        <option cate="">Ba Đình</option>
-                        <option cate="">Hoàn Kiếm</option>
-                        <option cate="">Đống Đa</option>
-                        <option cate="">Hà Đông</option>
-                        <option cate="">Cầu Giấy</option>
-                        <option cate="">Tây Hồ</option>
-                    </select>
-                </div>
-                <div class="flex justify-center items-center ">
-                    <div>
-                        <span class="text-red-400">1</span>
-                        <span>/</span>
-                        <span>13</span>
+            <div class="">
+                <h2 class="text-xl font-bold my-3 mx-2 uppercase"><a href="#">Danh sách Tour </a></h2>
+                <div class="flex justify-between">
+                    <div class="">
+                        <button class="px-3 py-2 text-sm bg-yellow-400 mx-2 border border-black hover:border-yellow-400">Tour Yêu Thích</button>
+                        <button class="px-3 py-2 text-sm bg-white mx-2 border border-black hover:border-yellow-400">Tour mới</button>
+                        <button class="px-3 py-2 text-sm bg-white mx-2 border border-black hover:border-yellow-400">Tour khuyến mãi</button>
                     </div>
-                    <div class="mx-5">
-                        <button class="px-4 py-2 bg-gray-200 border hover:border-yellow-400 hover:bg-white"><i class="fas fa-caret-left text-center"></i></button>
-                        <button class="px-4 py-2 bg-white border hover:border-yellow-400 hover:bg-white"><i class="fas fa-caret-right text-center"></i></button>
-                    </div>
+                    <form class="">
+                        <select class="px-3 py-2 text-sm bg-white mx-2 focus:outline-none border border-black hover:border-yellow-400" name="" id="">
+                            <option cate="gia">Giá</option>
+                            <option cate="thap">Giá: Thấp đến cao</option>
+                            <option cate="cao">Giá: Cao đến thấp</option>
+                        </select>
+                        <select class="px-3 w-40 py-2 text-sm bg-white mx-2 focus:outline-none border border-black hover:border-yellow-400" name="" id="">
+                            <option cate="">Điểm khởi hành</option>
+                            <option cate="">Ba Đình</option>
+                            <option cate="">Hoàn Kiếm</option>
+                            <option cate="">Đống Đa</option>
+                            <option cate="">Hà Đông</option>
+                            <option cate="">Cầu Giấy</option>
+                            <option cate="">Tây Hồ</option>
+                        </select>
+                        <input class="px-10 py-2 text-sm bg-blue-300 mx-2 focus:outline-none border border-black hover:border-yellow-400" type="submit" name="" id="" value="Tìm kiếm">
+                    </form>
                 </div>
             </div>
             <!-- <div class="border-t border-gray-300 my-5"></div> -->
@@ -332,14 +327,6 @@
                         <button class="border w-full py-2 group-hover:border-yellow-500 uppercase">Đặt ngay<i class="fas fa-angle-double-right text-sm pl-2 transform group-hover:translate-x-3 transition duration-150"></i></button>
                     </div>
                 </a>
-            </div>
-            <div class="mt-16 text-center">
-                <span class="px-4 py-2 bg-blue-600 mx-px hover:bg-blue-600"><a href="#" class="text-gray-800 text-sm hover:text-white">1</a></span>
-                <span class="bg-white px-4 py-2 mx-px hover:border-blue-500 border-white border"><a href="page2.html" class="text-sm">2</a></span>
-                <span class="bg-white px-4 py-2 mx-px hover:border-blue-500 border-white border"><a href="page3.html" class="text-sm">3</a></span>
-                <span class="bg-white px-4 py-2 mx-px hover:border-blue-500 border-white border"><a href="page2.html" class="text-sm">4</a></span>
-                <span class="bg-white px-4 py-2 mx-px hover:border-blue-500 border-white border"><a href="page3.html" class="text-sm">5</a></span>
-                <span class="bg-white px-4 py-2 mx-px hover:border-blue-500 border-white border"><a href="page2.html" class="text-sm"><i class="fas fa-angle-double-right"></i></a></span>
             </div>
         </div>
     </section>

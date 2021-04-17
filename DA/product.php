@@ -27,11 +27,11 @@
 <body class="nunito">
     <header class="relative">
         <img src="./content/image/background/bg-product.jpg" alt="">
+        <div id="navbar" class="absolute top-0 left-0 right-0 flex mt-8 px-32 bg-blue-300">
+            <?php require "menu.php"; ?>
+        </div>
         <div class="bg-blue-400 bg-opacity-50 absolute top-0 left-0 right-0">
             <?php require "headerTop.php"; ?>
-        </div>
-        <div class="absolute top-0 left-0 right-0 flex mt-8 px-32 bg-blue-300 bg-opacity-50">
-            <?php require "menu.php"; ?>
         </div>
         <div class="absolute bottom-0 left-0 right-0 mx-64 pt-5 bg-white bg-opacity-80 rounded-t-md">
             <h3 class="font-bold text-2xl uppercase text-center "><a href="">Tour nội thành - tên tour</a></h3>

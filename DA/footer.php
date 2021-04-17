@@ -43,7 +43,7 @@
         <div class="pl-10">
             <h3 class="font-bold text-base my-1 uppercase">Tin Tức</h3>
             <ul>
-                <li class="py-2"><a class="text-sm hover:underline capitalize" href="news.php">cẩn nang du lịch</a></li>
+                <li class="py-2"><a class="text-sm hover:underline capitalize" href="news.php">bản tin du lịch</a></li>
                 <li class="py-2"><a class="text-sm hover:underline capitalize" href="news.php">khám phá du lịch</a></li>
                 <li class="py-2"><a class="text-sm hover:underline capitalize" href="news.php">kinh nghiệm du lịch</a></li>
                 <li class="py-2"> <a class="text-sm hover:underline capitalize" href="news.php">sự kiện du lịch</a></li>

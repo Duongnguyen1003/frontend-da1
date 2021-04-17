@@ -28,11 +28,11 @@
     <div id="main">
         <header class="relative">
             <img src="./content/image/background/bg-cart.jpg" alt="">
+            <div id="navbar" class="absolute top-0 left-0 right-0 flex mt-8 px-32 bg-blue-300">
+                <?php require "menu.php"; ?>
+            </div>
             <div class="bg-blue-400 bg-opacity-50 absolute top-0 left-0 right-0">
                 <?php require "headerTop.php"; ?>
-            </div>
-            <div class="absolute top-0 left-0 right-0 flex mt-8 px-32 bg-blue-300 bg-opacity-50">
-                <?php require "menu.php"; ?>
             </div>
             <div class="absolute bottom-0 left-0 right-0 mx-64 pt-5 bg-white bg-opacity-80 rounded-t-md">
                 <h3 class="font-bold text-2xl uppercase text-center "><a href="">Đặt tour - tên tour</a></h3>
@@ -92,7 +92,7 @@
                         <table class="w-full">
                             <tr class="text-center">
                                 <th class="border py-2">Loại giá\Độ tuổi</th>
-                                <th class="border py-2">Người lớn(Trên 11 tuổi)</th>
+                                <th class="border py-2">Người lớn</th>
                                 <th class="border py-2">Trẻ em(Dưới 11 tuổi)</th>
                             </tr>
                             <tr class="text-center">
@@ -140,7 +140,7 @@
                     </div>
                 </div>
                 <form action="#" method="POST" class="border p-5 col-span-3">
-                    <h2 class="text-center text-2xl font-bold my-5">THÔNG TIN LIÊN HỆ</h2>
+                    <h2 class="text-center text-2xl font-bold my-2">THÔNG TIN LIÊN HỆ</h2>
                     <!-- end confirm password -->
                     <div class=" ">
                         <span>Tên tour</span>
@@ -169,50 +169,26 @@
                         <input class="my-1 bg-gray-100 bg-opacity-50 px-2 py-1 border focus:outline-none block w-full" type="number" placeholder="1" id="address" name="phone">
                     </div>
                     <div class="mt-3 ">
-                        <span>Trẻ em</span>
+                        <span>Trẻ em (Dưới 11 tuổi)</span>
                         <input class="my-1 bg-gray-100 bg-opacity-50 px-2 py-1 border focus:outline-none block w-full" type="number" placeholder="" id="address" name="phone">
                     </div>
                     <div class="mt-3 ">
                         <span>Ngày đi</span>
                         <input class="my-1 bg-gray-100 bg-opacity-50 px-2 py-1 border focus:outline-none block w-full" type="date" placeholder="" id="address" name="phone">
                     </div>
-                    <div class="my-5 flex justify-between">
-                        <span id="showVoucher" class="border border-gray-200 bg-gray-100 bg-opacity-50 pl-2 pr-96 py-1">fdggdfg</span>
-                        <span id="voucher" class="voucher text-blue-500 hover:text-red-600 cursor-pointer  flex items-center right-0">Chọn VOUCHER</span>
-                        <!-- <div id="selectVoucher">
-
-                            <div id="voucher1" class="flex cursor-pointer">
-                                <img class="w-32 h-24" src="./content/image/1.jpg" alt="">
-                                <span>dsh;hdsgdhfghdlfghldisu</span>
-
-                            </div>
-
-
-                            <div id="voucher2" class="flex cursor-pointer">
-                                <img class="w-32 h-24" src="./content/image/1.jpg" alt="">
-                                <span>dsh;hdsgdhfghdlfghldisu</span>
-
-                            </div>
-                            <div id="voucher3" class="flex cursor-pointer">
-                                <img class="w-32 h-24" src="./content/image/1.jpg" alt="">
-                                <span>dsh;hdsgdhfghdlfghldisu</span>
-
-                            </div>
-                        </div> -->
+                    <div class="mt-3 ">
+                        <span class="block">Ghi chú</span>
+                        <textarea class="border bg-gray-100 px-2 py-1 bg-opacity-50 ocus:outline-none" name="" id="" cols="73" rows="3"></textarea>
                     </div>
-
-                    <div>
-                        <label class="font-bold" for="">Thông tin thanh toán</label>
-                        <div class="mt-3">
-                            <input class="focus:outline-none" type="radio" name="checkPay" id="" required>
-                            <span>Thanh toán khi nhận tour</span>
-                        </div>
+                    <div class="my-5 flex justify-between">
+                        <span id="showVoucher" class="border border-white bg-white bg-opacity-50 pl-2 " style="width: 430px; height: 35px; line-height: 35px;"></span>
+                        <span id="voucher" class="voucher text-blue-500 hover:text-red-600 cursor-pointer flex items-center justify-end pl-1">Chọn VOUCHER</span>
                     </div>
                     <div class="flex justify-end">
                         <p class="mt-5">Tổng tiền: <span class="text-red-500 text-2xl font-bold italic">1,500,000</span> ₫</p>
                     </div>
                     <div class="flex justify-center items-center">
-                        <button class="mt-5 border hover:border-yellow-300 hover:bg-white rounded-lg px-10 py-2 text-lg focus:outline-none bg-blue-300 hover:text-black" name="btn_regis">Đặt ngay</button>
+                        <button class="mt-5 border hover:border-yellow-300 hover:bg-white rounded-lg px-10 py-2 text-lg focus:outline-none bg-blue-300 hover:text-black" name="btn_regis"><a href="success.php">Đặt ngay</a></button>
                     </div>
                     <!-- end submit -->
                 </form>
@@ -224,52 +200,55 @@
         </footer>
     </div>
     <div id="selectVoucher" class="absolute bottom-0 mx-170 my-180 items-center border bg-white">
-        <form action="">
-            <h2 class="text-2xl py-2 px-5 bg-yellow-500 bg-opacity-50 font-bold">Chọn Hanoitourist Voucher</h2>
-            <div class="flex py-3 justify-items-center bg-gray-100 px-5 my-2">
-                <span class="py-2">Mã Voucher</span>
-                <input class="border px-3 focus:outline-none mx-5 py-2 w-80" type="text" placeholder="Mã giảm giá" name="" id="">
-                <button class="py-2 px-8 bg-white">Áp dụng</button>
-            </div>
-            <div id="voucher1" class="grid grid-cols-4 gap-5 cursor-pointer mx-5 my-5 shadow-md">
-                <img class="col-span-1 my-auto" src="./content/image/Thẻ thành viên/5.png" alt="">
-                <div class=" col-span-2">
-                    <label class="font-bold nameVoucher" for="">Voucher SEA (tour 5 - 10 người)</label>
-                    <ul>
-                        <li class="list-inside list-disc py-1">Giảm <span class="font-bold">3%</span> tổng giá tiền cho các tour</li>
-
-                    </ul>
+        <div class="relative">
+            <button id="apply" class="py-2 px-8 absolute border bg-yellow-500  " style="right:20px; top:69px;">Áp dụng</button>
+            <form>
+                <h2 class="text-2xl py-2 px-5 bg-yellow-500 bg-opacity-50 font-bold">Chọn Hanoitourist Voucher</h2>
+                <div class="flex py-3 justify-items-center bg-gray-100 px-5 my-2">
+                    <span class="py-2">Mã Voucher</span>
+                    <input id="codeVoucher" value="" class="border px-3 focus:outline-none mx-5 py-2 w-80" type="text" placeholder="Mã giảm giá" name="">
                 </div>
-                <input class="mx-auto my-auto col-span-1 focus:outline-none" type="radio" name="check" id="">
-            </div>
-            <div id="voucher2" class="grid grid-cols-4 gap-5 cursor-pointer mx-5 my-5 shadow-md">
-                <img class="col-span-1 my-auto" src="./content/image/Thẻ thành viên/7.png" alt="">
-                <div class=" col-span-2">
-                    <label class="font-bold nameVoucher" for="">Voucher SKY (tour 11 - 15 người)</label>
-                    <ul>
-                        <li class="list-inside list-disc py-1">Giảm <span class="font-bold">5%</span> tổng giá tiền cho các tour</li>
+                <div id="voucher1" class="grid grid-cols-4 gap-5 cursor-pointer mx-5 my-5 shadow-md">
+                    <img class="col-span-1 my-auto" src="./content/image/Thẻ thành viên/5.png" alt="">
+                    <div class=" col-span-2">
+                        <label class="font-bold nameVoucher" for="">Voucher SEA (tour 5 - 10 người)</label>
+                        <ul>
+                            <li class="list-inside list-disc py-1">Giảm <span class="font-bold">3%</span> tổng giá tiền cho các tour</li>
 
-                    </ul>
+                        </ul>
+                    </div>
+                    <input class="mx-auto my-auto col-span-1 focus:outline-none" type="radio" name="check" id="">
                 </div>
-                <input value="dd" class="mx-auto my-auto col-span-1 focus:outline-none" type="radio" name="check" id="">
-            </div>
-            <div id="voucher3" class="grid grid-cols-4 gap-5 cursor-pointer mx-5 my-5 shadow-md">
-                <img class="col-span-1 my-auto" src="./content/image/Thẻ thành viên/10.1.png" alt="">
-                <div class=" col-span-2">
-                    <label class="font-bold nameVoucher" for="">Voucher SUN (tour 16 - 20 người)</label>
-                    <ul>
-                        <li class="list-inside list-disc py-1">Giảm <span class="font-bold">7%</span> tổng giá tiền cho các tour</li>
+                <div id="voucher2" class="grid grid-cols-4 gap-5 cursor-pointer mx-5 my-5 shadow-md">
+                    <img class="col-span-1 my-auto" src="./content/image/Thẻ thành viên/7.png" alt="">
+                    <div class=" col-span-2">
+                        <label class="font-bold nameVoucher" for="">Voucher SKY (tour 11 - 15 người)</label>
+                        <ul>
+                            <li class="list-inside list-disc py-1">Giảm <span class="font-bold">5%</span> tổng giá tiền cho các tour</li>
 
-                    </ul>
+                        </ul>
+                    </div>
+                    <input value="dd" class="mx-auto my-auto col-span-1 focus:outline-none" type="radio" name="check" id="">
                 </div>
-                <input class="mx-auto my-auto col-span-1 focus:outline-none" type="radio" name="check" id="">
-            </div>
-            <span class="text-gray-500 mx-5">* Đã hiển thị tất cả Hanoitourist voucher thuộc mục Voucher của hãng cung cấp.</span>
-            <div class="flex justify-end mx-5 my-10">
-                <button id="back" class="border hover:bg-yellow-500 border-yellow-500 px-14 py-1 mx-3 focus:outline-none"><a href="#">Trở lại</a></button>
-                <button id="clickOk" class="border bg-yellow-500 border-yellow-500 px-14 py-1">OK</button>
-            </div>
-        </form>
+                <div id="voucher3" class="grid grid-cols-4 gap-5 cursor-pointer mx-5 my-5 shadow-md">
+                    <img class="col-span-1 my-auto" src="./content/image/Thẻ thành viên/10.1.png" alt="">
+                    <div class=" col-span-2">
+                        <label class="font-bold nameVoucher" for="">Voucher SUN (tour 16 - 20 người)</label>
+                        <ul>
+                            <li class="list-inside list-disc py-1">Giảm <span class="font-bold">7%</span> tổng giá tiền cho các tour</li>
+
+                        </ul>
+                    </div>
+                    <input class="mx-auto my-auto col-span-1 focus:outline-none" type="radio" name="check" id="">
+                </div>
+                <span class="text-gray-500 mx-5">* Đã hiển thị tất cả Hanoitourist voucher thuộc mục Voucher của hãng cung cấp.</span>
+
+            </form>
+        </div>
+        <div class="flex justify-end mx-5 my-10">
+            <button id="back" class="border hover:bg-yellow-500 border-yellow-500 px-14 py-1 mx-3 focus:outline-none"><a href="#">Trở lại</a></button>
+            <button id="clickok" class="border bg-yellow-500 border-yellow-500 px-14 py-1">OK</button>
+        </div>
     </div>
     <script>
         var voucher = document.getElementById("voucher");
@@ -279,10 +258,12 @@
         var voucher2 = document.getElementById("voucher2");
         var voucher3 = document.getElementById("voucher3");
         var showVoucher = document.getElementById("showVoucher");
-        var nameVoucher = document.querySelector(".nameVoucher");
+        var nameVoucher = document.querySelectorAll(".nameVoucher");
         var back = document.getElementById("back");
         selectVoucher.style.display = "none";
         var check = document.getElementsByName("check");
+        var codeVoucher = document.querySelector("#codeVoucher");
+        var apply = document.querySelector("#apply");
 
 
         voucher.addEventListener("click", function() {
@@ -320,7 +301,31 @@
         voucher2.style.filter = "grayscale(100%)";
 
 
-        // var clickOk = document.getElementById("clickOk");
+        var clickok = document.getElementById("clickok");
+
+        clickok.addEventListener("click", function() {
+            selectVoucher.style.display = "none";
+            main.style.background = "white";
+            main.style.opacity = "1";
+            for (var i = 0; i < check.length; i++) {
+                if (check[i].checked == true) {
+                    showVoucher.innerHTML = nameVoucher[i].innerHTML;
+                    showVoucher.style.display = "block";
+                    showVoucher.style.borderColor = "#e5e7eb";
+                    showVoucher.style.backgroundColor = "#f9f9fa";
+                }
+            }
+        })
+        apply.addEventListener("click", function() {
+            selectVoucher.style.display = "none";
+            main.style.background = "white";
+            main.style.opacity = "1";
+
+            showVoucher.innerHTML = codeVoucher.value;
+            showVoucher.style.display = "block";
+            showVoucher.style.borderColor = "#e5e7eb";
+            showVoucher.style.backgroundColor = "#f9f9fa";
+        })
         // clickOk.addEventListener("click", function() {
         //     function enableBodyScroll() {
         //         if (document.readyState === 'complete') {

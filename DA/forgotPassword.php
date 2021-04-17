@@ -25,11 +25,11 @@
 
 <body class="nunito">
     <header>
-        <div class="bg-blue-400 bg-opacity-50">
-            <?php require "headerTop.php"; ?>
-        </div>
-        <div class="flex px-32 bg-blue-500 bg-opacity-70">
+        <div id="navbar" class="absolute top-0 left-0 right-0 flex mt-8 px-32 bg-blue-300">
             <?php require "menu.php"; ?>
+        </div>
+        <div class="bg-blue-400 bg-opacity-50 absolute top-0 left-0 right-0">
+            <?php require "headerTop.php"; ?>
         </div>
     </header>
     <main>
