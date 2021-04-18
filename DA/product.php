@@ -59,24 +59,19 @@
         <section class="bg-white my-5">
             <div class="container mx-auto grid grid-cols-12 gap-10 justify-center">
                 <div class="col-span-6 my-5 bg-white m-2">
-                    <div class="slider-for object-cover bg-gray-100">
-                        <div class="focus:outline-none"><img class="w-full object-cover" src="../assets/img/<?php echo $totall['image_main'] ?>" alt=""></div>
-                        <div class="focus:outline-none"><img class="w-full object-cover" src="../assets/img/<?php echo $totall['image_detail'] ?>" alt=""></div>
-                        <div class="focus:outline-none"><img class="w-full object-cover" src="../assets/img/<?php echo $totall['image_plan1'] ?>" alt=""></div>
-                        <div class="focus:outline-none"><img class="w-full object-cover" src="../assets/img/<?php echo $totall['image_plan2'] ?>" alt=""></div>
-                        <div class="focus:outline-none"><img class="w-full object-cover" src="../assets/img/<?php echo $totall['image_plan3'] ?>" alt=""></div>
+                    <div class="slider-for bg-gray-100">
+                        <div class="focus:outline-none"><img class="object-fill" src="../assets/img/<?php echo $totall['image_main'] ?>" style="width: 732px;height: 446.52px;" alt=""></div>
+                        <div class="focus:outline-none"><img class="object-fill" src="../assets/img/<?php echo $totall['image_detail'] ?>" style="width: 732px;height: 446.52px;" alt=""></div>
+                        <div class="focus:outline-none"><img class="object-fill" src="../assets/img/<?php echo $totall['image_plan1'] ?>" style="width: 732px;height: 446.52px;" alt=""></div>
+                        <div class="focus:outline-none"><img class="object-fill" src="../assets/img/<?php echo $totall['image_plan2'] ?>" style="width: 732px;height: 446.52px;" alt=""></div>
+                        <div class="focus:outline-none"><img class="object-fill" src="../assets/img/<?php echo $totall['image_plan3'] ?>" style="width: 732px;height: 446.52px;" alt=""></div>
                     </div>
                     <div class="slider-nav bg-gray-100 mt-5">
-                        <div class="px-1 focus:outline-none"><img src="../assets/img/<?php echo $totall['image_detail'] ?>" alt="">
-                        </div>
-                        <div class="px-1 focus:outline-none"><img src="./content/image/1.jpg" alt="">
-                        </div>
-                        <div class="px-1 focus:outline-none"><img src="../assets/img/<?php echo $totall['image_plan1'] ?>" alt="">
-                        </div>
-                        <div class="px-1 focus:outline-none"><img src="../assets/img/<?php echo $totall['image_plan2'] ?>" alt="">
-                        </div>
-                        <div class="px-1 focus:outline-none"><img src="../assets/img/<?php echo $totall['image_plan3'] ?>" alt="">
-                        </div>
+                        <div class="px-1 focus:outline-none"><img class="object-fill" src="../assets/img/<?php echo $totall['image_main'] ?>" style="width: 203px;height: 123.83px;" alt=""></div>
+                        <div class="px-1 focus:outline-none"><img class="object-fill" src="../assets/img/<?php echo $totall['image_detail'] ?>" style="width: 203px;height: 123.83px;" alt=""></div>
+                        <div class="px-1 focus:outline-none"><img class="object-fill" src="../assets/img/<?php echo $totall['image_plan1'] ?>" style="width: 203px;height: 123.83px;" alt=""></div>
+                        <div class="px-1 focus:outline-none"><img class="object-fill" src="../assets/img/<?php echo $totall['image_plan2'] ?>" style="width: 203px;height: 123.83px;" alt=""></div>
+                        <div class="px-1 focus:outline-none"><img class="object-fill" src="../assets/img/<?php echo $totall['image_plan3'] ?>" style="width: 203px;height: 123.83px;" alt=""></div>
                     </div>
 
                 </div>
@@ -139,7 +134,7 @@
                             </div>
                             <div class="mt-5">
                                 <p class="text-justify"><?php echo $totall['content'] ?></p>
-                                <img class="mx-auto my-5" src="../assets/img/<?php echo $totall['image_detail'] ?>" alt="">
+                                <img class="mx-auto my-5 object-fill" src="../assets/img/<?php echo $totall['image_detail'] ?>" style="width: 600px; height: 366px;" alt="">
                             </div>
                         </div>
                         <div>
@@ -163,7 +158,7 @@
                                         theo là Chùa Một Cột – ngôi chùa có kiến trúc độc đáo mang dáng dấp của
                                         một đài sen mọc lên giữa lòng hồ vuông vắn.</li>
                                 </ul> -->
-                                <img class="mx-auto my-5" src="../assets/img/<?php echo $totall['image_plan1'] ?>" alt="">
+                                <img class="mx-auto my-5 object-fill" src="../assets/img/<?php echo $totall['image_plan1'] ?>" style="width: 600px; height: 366px;" alt="">
                             </div>
                             <div>
                                 <p>
@@ -179,7 +174,7 @@
                                         quan Văn Miếu Quốc Tử Giám – trường đại học đầu tiên của Việt Nam thờ Khổng Tử.
                                     </li>
                                 </ul> -->
-                                <img class="mx-auto my-5" src="../assets/img/<?php echo $totall['image_plan2'] ?>" alt="">
+                                <img class="mx-auto my-5 object-fill" src="../assets/img/<?php echo $totall['image_plan2'] ?>" style="width: 600px; height: 366px;" alt="">
                             </div>
                             <div>
                                 <p>
@@ -191,7 +186,7 @@
                                     <li class="text-justify"><span class="font-bold">16:00:</span> Xe đưa Quý khách về
                                         khách sạn. Kết thúc chương trình.</li>
                                 </ul> -->
-                                <img class="mx-auto my-5" src="../assets/img/<?php echo $totall['image_plan3'] ?>" alt="">
+                                <img class="mx-auto my-5 object-fill" src="../assets/img/<?php echo $totall['image_plan3'] ?>" style="width: 600px; height: 366px;" alt="">
                             </div>
                         </div>
                         <!-- <div>
@@ -205,7 +200,7 @@
                                     Đức Phật. Để quên đi những ồn ào của cuộc sống và cầu mong cho gia đình, người thân
                                     một năm mới tràn đầy hạnh phúc và sức khỏe. Hãy đồng hành cùng Du Lịch Việt trong
                                     touir lễ chùa Hương này để khám phá cảnh đẹp và lễ chùa linh thiêng.</p>
-                                <img class="mx-auto my-5" src="./content/image/hoan-kiem.jpg" alt="">
+                                <img class="mx-auto my-5 object-fill" src="./content/image/hoan-kiem.jpg" alt="">
                             </div>
                         </div> -->
                     </div>
@@ -217,7 +212,7 @@
                         <div class="mt-5">
                             <a class="group shadow-lg rounded-md" href="">
                                 <div class="overflow-hidden rounded-md border border-white">
-                                    <img class="transition duration-300 transform group-hover:opacity-80" src="./content/image/1.jpg" alt="">
+                                    <img class="transition duration-300 transform group-hover:opacity-80 object-fill" style="height: 185px;width: 302px;" src="./content/image/user.png" alt="">
                                 </div>
                                 <div class="text-left px-5 py-3">
                                     <h3 class="text-base font-bold uppercase">Lăng bác - văn miếu - hỏa lò</h3>
@@ -233,7 +228,7 @@
                             <div class="border-b w-72 bg-gray-400 mx-auto my-5"></div>
                             <a class="group shadow-lg rounded-md" href="">
                                 <div class="overflow-hidden rounded-md border border-white">
-                                    <img class="transition duration-300 transform group-hover:opacity-80" src="./content/image/1.jpg" alt="">
+                                    <img class="transition duration-300 transform group-hover:opacity-80 object-fill" style="height: 185px;width: 302px;" src="./content/image/1.jpg" alt="">
                                 </div>
                                 <div class="text-left px-5 py-3">
                                     <h3 class="text-base font-bold uppercase">Lăng bác - văn miếu - hỏa lò</h3>
@@ -249,7 +244,7 @@
                             <div class="border-b w-72 bg-gray-400 mx-auto my-5"></div>
                             <a class="group shadow-lg rounded-md" href="">
                                 <div class="overflow-hidden rounded-md border border-white">
-                                    <img class="transition duration-300 transform group-hover:opacity-80" src="./content/image/1.jpg" alt="">
+                                    <img class="transition duration-300 transform group-hover:opacity-80 object-fill" style="height: 185px;width: 302px;" src="./content/image/1.jpg" alt="">
                                 </div>
                                 <div class="text-left px-5 py-3">
                                     <h3 class="text-base font-bold uppercase">Lăng bác - văn miếu - hỏa lò</h3>
@@ -265,7 +260,7 @@
                             <div class="border-b w-72 bg-gray-400 mx-auto my-5"></div>
                             <a class="group shadow-lg rounded-md" href="">
                                 <div class="overflow-hidden rounded-md border border-white">
-                                    <img class="transition duration-300 transform group-hover:opacity-80" src="./content/image/1.jpg" alt="">
+                                    <img class="transition duration-300 transform group-hover:opacity-80 object-fill" style="height: 185px;width: 302px;" src="./content/image/1.jpg" alt="">
                                 </div>
                                 <div class="text-left px-5 py-3">
                                     <h3 class="text-base font-bold uppercase">Lăng bác - văn miếu - hỏa lò</h3>
@@ -281,7 +276,7 @@
                             <div class="border-b w-72 bg-gray-400 mx-auto my-5"></div>
                             <a class="group shadow-lg rounded-md" href="">
                                 <div class="overflow-hidden rounded-md border border-white">
-                                    <img class="transition duration-300 transform group-hover:opacity-80" src="./content/image/1.jpg" alt="">
+                                    <img class="transition duration-300 transform group-hover:opacity-80 object-fill" style="height: 185px;width: 302px;" src="./content/image/1.jpg" alt="">
                                 </div>
                                 <div class="text-left px-5 py-3">
                                     <h3 class="text-base font-bold uppercase">Lăng bác - văn miếu - hỏa lò</h3>

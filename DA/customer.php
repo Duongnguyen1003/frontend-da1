@@ -66,8 +66,7 @@
                             <p class="py-1">Voucher áp dụng quyền lợi giảm giá trực tiếp cho tour <span class="font-bold">5 - 10</span> người khi đặt tour.</p>
                             <div class="">
                                 <ul>
-                                    <li class="list-inside list-disc py-1">Giảm <span class="font-bold">3%</span> cho tour nội thành</li>
-                                    <li class="list-inside list-disc py-1">Giảm <span class="font-bold">5%</span> cho tour ngoại thành</li>
+                                    <li class="list-inside list-disc py-1">Giảm <span class="font-bold">5%</span> cho các tour</li>
                                     <li class="list-inside list-disc py-1">Khi áp dụng giảm % của voucher này sẽ không áp dụng đồng thời với các voucher khác.</li>
                                     <li class="list-inside list-disc py-1">Giá trị voucher có hiệu lực ngay sau khi khách hàng lựa chọn voucher</li>
                                     <li class="list-inside list-disc pt-1">Ưu đãi giảm giá dịch vụ không được áp dụng đối với các tour khuyến mãi, tour giảm giá đặc biệt khác</li>
@@ -93,8 +92,7 @@
                             <p class="py-1">Voucher áp dụng quyền lợi giảm giá trực tiếp cho tour <span class="font-bold">11 - 15</span> người khi đặt tour.</p>
                             <div class="">
                                 <ul>
-                                    <li class="list-inside list-disc py-1">Giảm <span class="font-bold">5%</span> cho tour nội thành</li>
-                                    <li class="list-inside list-disc py-1">Giảm <span class="font-bold">7%</span> cho tour ngoại thành</li>
+                                    <li class="list-inside list-disc py-1">Giảm <span class="font-bold">7%</span> cho các tour</li>
                                     <li class="list-inside list-disc py-1">Khi áp dụng giảm % của voucher này sẽ không áp dụng đồng thời với các voucher khác.</li>
                                     <li class="list-inside list-disc py-1">Giá trị voucher có hiệu lực ngay sau khi khách hàng lựa chọn voucher</li>
                                     <li class="list-inside list-disc pt-1">Ưu đãi giảm giá dịch vụ không được áp dụng đối với các tour khuyến mãi, tour giảm giá đặc biệt khác</li>
@@ -120,8 +118,7 @@
                             <p class="py-1">Voucher áp dụng quyền lợi giảm giá trực tiếp cho tour <span class="font-bold">16 - 20</span> người khi đặt tour.</p>
                             <div class="">
                                 <ul>
-                                    <li class="list-inside list-disc py-1">Giảm <span class="font-bold">7%</span> cho tour nội thành</li>
-                                    <li class="list-inside list-disc py-1">Giảm <span class="font-bold">10%</span> cho tour ngoại thành</li>
+                                    <li class="list-inside list-disc py-1">Giảm <span class="font-bold">10%</span> cho các tour</li>
                                     <li class="list-inside list-disc py-1">Khi áp dụng giảm % của voucher này sẽ không áp dụng đồng thời với các voucher khác.</li>
                                     <li class="list-inside list-disc py-1">Giá trị voucher có hiệu lực ngay sau khi khách hàng lựa chọn voucher</li>
                                     <li class="list-inside list-disc pt-1">Ưu đãi giảm giá dịch vụ không được áp dụng đối với các tour khuyến mãi, tour giảm giá đặc biệt khác</li>
