@@ -30,7 +30,7 @@
 <body class="nunito">
     <header class="relative">
         <img src="./content/image/background/bg-uuDai1.jpg" alt="">
-        <div id="navbar" class="absolute top-0 left-0 right-0 flex mt-8 px-32 bg-blue-300">
+        <div id="navbar" class="absolute top-0 left-0 right-0 flex mt-8 px-32 bg-blue-300 bg-opacity-50">
             <?php require "menu.php"; ?>
         </div>
         <div class="bg-blue-400 bg-opacity-50 absolute top-0 left-0 right-0">
@@ -53,7 +53,7 @@
             <div class="grid grid-cols-3 gap-12 container mx-auto">
                 <div>
                     <div id="screen">
-                        <img class="rounded-md" src="./content/image/Thẻ thành viên/5.png" alt="">
+                        <img class="rounded-md" src="./content/image/Thẻ thành viên/5.1.png" alt="">
                         <div class="bg-white rounded-md py-6 my-10">
                             <h3 class="text-blue-500 font-bold text-2xl">Voucher SEA</h3>
                             <p class="pt-3">Ưu đãi đến 5%</p>
@@ -63,6 +63,7 @@
                     <div class="pt-5 hidden" id="show">
                         <h3 class="text-blue-500 font-bold text-2xl pb-5">Voucher SEA</h3>
                         <div class="text-left">
+                            <p>Mã voucher: <span class="font-bold">HN042021</span></p>
                             <p class="py-1">Voucher áp dụng quyền lợi giảm giá trực tiếp cho tour <span class="font-bold">5 - 10</span> người khi đặt tour.</p>
                             <div class="">
                                 <ul>
@@ -79,7 +80,7 @@
                 <!-- col1 -->
                 <div>
                     <div id="screen1">
-                        <img class="rounded-md" src="./content/image/Thẻ thành viên/7.png" alt="">
+                        <img class="rounded-md" src="./content/image/Thẻ thành viên/7.1.png" alt="">
                         <div class="bg-white rounded-md py-6 my-10">
                             <h3 class="text-blue-500 font-bold text-2xl">Voucher SKY</h3>
                             <p class="pt-3">Ưu đãi đến 7%</p>
@@ -89,6 +90,7 @@
                     <div class="pt-5 hidden " id="show1">
                         <h3 class="text-blue-500 font-bold text-2xl pb-5">Voucher SKY</h3>
                         <div class="text-left">
+                            <p>Mã voucher: <span class="font-bold">HN052021</span></p>
                             <p class="py-1">Voucher áp dụng quyền lợi giảm giá trực tiếp cho tour <span class="font-bold">11 - 15</span> người khi đặt tour.</p>
                             <div class="">
                                 <ul>
@@ -105,7 +107,7 @@
                 <!-- col2 -->
                 <div>
                     <div id="screen2">
-                        <img class="rounded-md" src="./content/image/Thẻ thành viên/10.1.png" alt="">
+                        <img class="rounded-md" src="./content/image/Thẻ thành viên/10.2.png" alt="">
                         <div class="bg-white rounded-md py-6 my-10">
                             <h3 class="text-blue-500 font-bold text-2xl">Voucher SUN</h3>
                             <p class="pt-3">Ưu đãi đến 10%</p>
@@ -115,6 +117,7 @@
                     <div class="pt-5 hidden" id="show2">
                         <h3 class="text-blue-500 font-bold text-2xl pb-5">Voucher SUN</h3>
                         <div class="text-left">
+                            <p>Mã voucher: <span class="font-bold">HN062021</span></p>
                             <p class="py-1">Voucher áp dụng quyền lợi giảm giá trực tiếp cho tour <span class="font-bold">16 - 20</span> người khi đặt tour.</p>
                             <div class="">
                                 <ul>
@@ -129,6 +132,85 @@
                     </div>
                 </div>
                 <!-- col3 -->
+                <div>
+                    <div id="screen">
+                        <img class="rounded-md" src="./content/image/Thẻ thành viên/13.png" alt="">
+                        <div class="bg-white rounded-md py-6 my-10">
+                            <h3 class="text-blue-500 font-bold text-2xl">Voucher SILER</h3>
+                            <p class="pt-3">Ưu đãi đến 13%</p>
+                        </div>
+                        <button class=" bg-yellow-400 w-40 py-3 border hover:bg-white hover:border-yellow-400 focus:outline-none" id="next">Xem chi tiết<i class="fas fa-plus-square px-1"></i></button>
+                    </div>
+                    <div class="pt-5 hidden" id="show">
+                        <h3 class="text-blue-500 font-bold text-2xl pb-5">Voucher SILER</h3>
+                        <div class="text-left">
+                            <p>Mã voucher: <span class="font-bold">HN072021</span></p>
+                            <p class="py-1">Voucher áp dụng quyền lợi giảm giá trực tiếp cho tour <span class="font-bold">21 - 25</span> người khi đặt tour.</p>
+                            <div class="">
+                                <ul>
+                                    <li class="list-inside list-disc py-1">Giảm <span class="font-bold">13%</span> cho các tour</li>
+                                    <li class="list-inside list-disc py-1">Khi áp dụng giảm % của voucher này sẽ không áp dụng đồng thời với các voucher khác.</li>
+                                    <li class="list-inside list-disc py-1">Giá trị voucher có hiệu lực ngay sau khi khách hàng lựa chọn voucher</li>
+                                    <li class="list-inside list-disc pt-1">Ưu đãi giảm giá dịch vụ không được áp dụng đối với các tour khuyến mãi, tour giảm giá đặc biệt khác</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="mt-10 bg-yellow-400 w-40 py-3 border hover:bg-white hover:border-yellow-400" id="prev">Xem mã<i class="fas fa-qrcode px-1"></i></button>
+                    </div>
+                </div>
+                <!-- col4 -->
+                <div>
+                    <div id="screen1">
+                        <img class="rounded-md" src="./content/image/Thẻ thành viên/15.png" alt="">
+                        <div class="bg-white rounded-md py-6 my-10">
+                            <h3 class="text-blue-500 font-bold text-2xl">Voucher GOLD</h3>
+                            <p class="pt-3">Ưu đãi đến 15%</p>
+                        </div>
+                        <button class=" bg-yellow-400 w-40 py-3 border hover:bg-white hover:border-yellow-400 focus:outline-none" id="next1">Xem chi tiết<i class="fas fa-plus-square px-1"></i></button>
+                    </div>
+                    <div class="pt-5 hidden " id="show1">
+                        <h3 class="text-blue-500 font-bold text-2xl pb-5">Voucher GOLD</h3>
+                        <div class="text-left">
+                            <p class="py-1">Voucher áp dụng quyền lợi giảm giá trực tiếp cho tour <span class="font-bold">26 - 30</span> người khi đặt tour.</p>
+                            <div class="">
+                                <ul>
+                                    <li class="list-inside list-disc py-1">Giảm <span class="font-bold">15%</span> cho các tour</li>
+                                    <li class="list-inside list-disc py-1">Khi áp dụng giảm % của voucher này sẽ không áp dụng đồng thời với các voucher khác.</li>
+                                    <li class="list-inside list-disc py-1">Giá trị voucher có hiệu lực ngay sau khi khách hàng lựa chọn voucher</li>
+                                    <li class="list-inside list-disc pt-1">Ưu đãi giảm giá dịch vụ không được áp dụng đối với các tour khuyến mãi, tour giảm giá đặc biệt khác</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="mt-10 bg-yellow-400 w-40 py-3 border hover:bg-white hover:border-yellow-400" id="prev1">Xem mã<i class="fas fa-qrcode px-1"></i></button>
+                    </div>
+                </div>
+                <!-- col5 -->
+                <div>
+                    <div id="screen2">
+                        <img class="rounded-md" src="./content/image/Thẻ thành viên/18.png" alt="">
+                        <div class="bg-white rounded-md py-6 my-10">
+                            <h3 class="text-blue-500 font-bold text-2xl">Voucher DIAMOND</h3>
+                            <p class="pt-3">Ưu đãi đến 18%</p>
+                        </div>
+                        <button class=" bg-yellow-400 w-40 py-3 border hover:bg-white hover:border-yellow-400 focus:outline-none" id="next2">Xem chi tiết<i class="fas fa-plus-square px-1"></i></button>
+                    </div>
+                    <div class="pt-5 hidden" id="show2">
+                        <h3 class="text-blue-500 font-bold text-2xl pb-5">Voucher DIAMOND</h3>
+                        <div class="text-left">
+                            <p class="py-1">Voucher áp dụng quyền lợi giảm giá trực tiếp cho tour <span class="font-bold">31 - 35</span> người khi đặt tour.</p>
+                            <div class="">
+                                <ul>
+                                    <li class="list-inside list-disc py-1">Giảm <span class="font-bold">18%</span> cho các tour</li>
+                                    <li class="list-inside list-disc py-1">Khi áp dụng giảm % của voucher này sẽ không áp dụng đồng thời với các voucher khác.</li>
+                                    <li class="list-inside list-disc py-1">Giá trị voucher có hiệu lực ngay sau khi khách hàng lựa chọn voucher</li>
+                                    <li class="list-inside list-disc pt-1">Ưu đãi giảm giá dịch vụ không được áp dụng đối với các tour khuyến mãi, tour giảm giá đặc biệt khác</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="mt-10 bg-yellow-400 w-40 py-3 border hover:bg-white hover:border-yellow-400" id="prev2">Xem mã<i class="fas fa-qrcode px-1"></i></button>
+                    </div>
+                </div>
+                <!-- col6 -->
             </div>
         </section>
         <section class="text-left py-12 bg-white">

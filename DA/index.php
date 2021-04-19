@@ -43,10 +43,13 @@
     <header>
         <div class="relative">
             <div class="sliderBanner  overflow-hidden">
-                <img class="focus:outline-none" src="./content/image/sliderBanner/tran-quoc.jpg" alt="">
-                <img class="focus:outline-none" src="./content/image/sliderBanner/tran-quoc.jpg" alt="">
+                <img class="focus:outline-none object-fill" src="./content/image/sliderBanner/lang-ba.jpg" alt="" style="width: 1903px; height: 923px;">
+                <img class="focus:outline-none object-fill" src="./content/image/sliderBanner/1-0629.jpg" alt="" style="width: 1903px; height: 923px;">
+                <img class="focus:outline-none object-fill" src="./content/image/sliderBanner/tran-quoc.jpg" alt="" style="width: 1903px; height: 923px;">
+                <img class="focus:outline-none object-fill" src="./content/image/sliderBanner/NTU-6013-1573974814_680x0.jpg" alt="" style="width: 1903px; height: 923px;">
+                <img class="focus:outline-none object-fill" src="./content/image/sliderBanner/du-lich-khoang-xanh-suoi-tien-1-ngay-2-1024x635.jpg" alt="" style="width: 1903px; height: 923px;">
             </div>
-            <div id="navbar" class="absolute top-0 left-0 right-0 flex mt-8 px-32 bg-blue-300">
+            <div id="navbar" class="absolute top-0 left-0 right-0 flex mt-8 px-32 bg-blue-300 bg-opacity-50">
                 <?php require "menu.php"; ?>
             </div>
             <div class="bg-blue-400 bg-opacity-50 absolute top-0 left-0 right-0">
@@ -73,9 +76,10 @@
             <div class="relative group">
                 <a class="" href="#">
                     <div class="overflow-hidden rounded-md border border-white">
-                        <img class="transition duration-300 transform group-hover:scale-105 w-full" src="./content/image/1.jpg" alt="">
+                        <img class="transition duration-300 transform group-hover:scale-105 object-fill" src="./content/image/1_1.jpg" alt="" style="width: 726px; height: 443px;">
                     </div>
-                    <div class="absolute left-0 right-0 bottom-0 mx-px mb-5 flex justify-center items-center uppercase text-white shadow-lg bg-black bg-opacity-50 hover:text-blue-400">
+                    <img class="absolute top-0 right-0 object-fill" src="./content/image/đặc biệt/hot-travel-small.png" alt="" style="height: 100px; width: 150px;">
+                    <div class="absolute left-0 right-0 bottom-0 mx-px py-2 mb-5 flex justify-center items-center uppercase text-white shadow-lg bg-black bg-opacity-50 hover:text-blue-400">
                         <div class="text-center ">
                             <h4>Lăng Bác - Hoàng Thành - Phố cổ</h4>
                             <p class="my-px">
@@ -95,9 +99,10 @@
             <div class="relative group">
                 <a class="" href="#">
                     <div class="overflow-hidden rounded-md border border-white">
-                        <img class="transition duration-300 transform group-hover:scale-105 w-full" src="./content/image/1.jpg" alt="">
+                        <img class="transition duration-300 transform group-hover:scale-105 object-fill" src="./content/image/1.jpg" alt="" style="width: 726px; height: 443px;">
                     </div>
-                    <div class="absolute left-0 right-0 bottom-0 mx-px mb-5 flex justify-center items-center uppercase text-white shadow-lg bg-black bg-opacity-50 hover:text-blue-400">
+                    <img class="absolute top-0 right-0 object-fill" src="./content/image/đặc biệt/hot-travel-small.png" alt="" style="height: 100px; width: 150px;">
+                    <div class="absolute left-0 right-0 bottom-0 mx-px py-2 mb-5 flex justify-center items-center uppercase text-white shadow-lg bg-black bg-opacity-50 hover:text-blue-400">
                         <div class="text-center ">
                             <h4>Lăng Bác - Hoàng Thành - Phố cổ</h4>
                             <p class="my-px">
@@ -135,9 +140,9 @@
                 <article class="mx-6 relative py-10 group focus:outline-none outline-none">
                     <a class="focus:outline-none" href="./product.php?id_tour=<?php echo $values['id_tour'] ?>">
                         <div class="overflow-hidden rounded-md border border-white">
-                            <img class="transition duration-300 transform group-hover:scale-105" src="../assets/img/<?php echo $values['image_main'] ?>" alt="">
+                            <img class="transition duration-300 transform group-hover:scale-105 object-fill" src="../assets/img/<?php echo $values['image_main'] ?>" alt="" style="width: 462px;height: 282px;">
                         </div>
-                        <div class="absolute left-0 right-0 bottom-0 mb-16 mx-px flex justify-center items-center text-white shadow-lg bg-black bg-opacity-50 hover:text-blue-400">
+                        <div class="absolute left-0 right-0 bottom-0 mb-16 mx-px py-2 flex justify-center items-center text-white shadow-lg bg-black bg-opacity-50 hover:text-blue-400">
                             <div class="text-center ">
                                 <h4 class="uppercase px-5"><?php echo $values['name_tour'] ?></h4>
                                 <p class="my-px">
@@ -235,7 +240,7 @@
                 <div class="relative group mr-2">
                     <a class="" href="#">
                         <div class="overflow-hidden rounded-md border border-white">
-                            <img class="transition duration-300 transform group-hover:scale-105 w-full" src="./content/image/1.jpg" alt="">
+                            <img class="transition duration-300 transform group-hover:scale-105 object-fill" src="./content/image/1.jpg" alt="" style="width: 758px;height: 462px;">
                         </div>
                         <div class="absolute left-0 right-0 bottom-0 mb-10  mx-px flex justify-center items-center uppercase text-white shadow-lg bg-black bg-opacity-50 hover:text-blue-400">
                             <div class="text-center ">
@@ -259,9 +264,9 @@
                 <div class="relative group m-2">
                     <a class="" href="#">
                         <div class="overflow-hidden rounded-md border border-white">
-                            <img class="transition duration-300 transform group-hover:scale-105 w-full" src="./content/image/1.jpg" alt="">
+                            <img class="transition duration-300 transform group-hover:scale-105 object-fill" src="./content/image/1.jpg" alt="" style="width: 366px; height: 223px;">
                         </div>
-                        <div class="absolute left-0 right-0 bottom-0 mb-3 mx-px flex justify-center items-center uppercase text-white shadow-lg bg-black bg-opacity-50 hover:text-blue-400">
+                        <div class="absolute left-0 right-0 bottom-0 mb-3 mx-px py-2 flex justify-center items-center uppercase text-white shadow-lg bg-black bg-opacity-50 hover:text-blue-400">
                             <div class="text-center ">
                                 <h4>Lăng Bác - Hoàng Thành - Phố cổ</h4>
                                 <p class="my-px">
@@ -281,9 +286,9 @@
                 <div class="relative group m-2">
                     <a class="" href="#">
                         <div class="overflow-hidden rounded-md border border-white">
-                            <img class="transition duration-300 transform group-hover:scale-105 w-full" src="./content/image/1.jpg" alt="">
+                            <img class="transition duration-300 transform group-hover:scale-105 object-fill" src="./content/image/1.jpg" alt="" style="width: 366px; height: 223px;">
                         </div>
-                        <div class="absolute left-0 right-0 bottom-0 mb-3 mx-px flex justify-center items-center uppercase text-white shadow-lg bg-black bg-opacity-50 hover:text-blue-400">
+                        <div class="absolute left-0 right-0 bottom-0 mb-3 mx-px py-2 flex justify-center items-center uppercase text-white shadow-lg bg-black bg-opacity-50 hover:text-blue-400">
                             <div class="text-center ">
                                 <h4>Lăng Bác - Hoàng Thành - Phố cổ</h4>
                                 <p class="my-px">
@@ -303,9 +308,9 @@
                 <div class="relative group m-2">
                     <a class="" href="#">
                         <div class="overflow-hidden rounded-md border border-white">
-                            <img class="transition duration-300 transform group-hover:scale-105 w-full" src="./content/image/1.jpg" alt="">
+                            <img class="transition duration-300 transform group-hover:scale-105 object-fill" src="./content/image/1.jpg" alt="" style="width: 366px; height: 223px;">
                         </div>
-                        <div class="absolute left-0 right-0 bottom-0 mb-3 mx-px flex justify-center items-center uppercase text-white shadow-lg bg-black bg-opacity-50 hover:text-blue-400">
+                        <div class="absolute left-0 right-0 bottom-0 mb-3 mx-px py-2 flex justify-center items-center uppercase text-white shadow-lg bg-black bg-opacity-50 hover:text-blue-400">
                             <div class="text-center ">
                                 <h4>Lăng Bác - Hoàng Thành - Phố cổ</h4>
                                 <p class="my-px">
@@ -325,9 +330,9 @@
                 <div class="relative group m-2">
                     <a class="" href="#">
                         <div class="overflow-hidden rounded-md border border-white">
-                            <img class="transition duration-300 transform group-hover:scale-105 w-full" src="./content/image/1.jpg" alt="">
+                            <img class="transition duration-300 transform group-hover:scale-105 object-fill" src="./content/image/1.jpg" alt="" style="width: 366px; height: 223px;">
                         </div>
-                        <div class="absolute left-0 right-0 bottom-0 mb-3 mx-px flex justify-center items-center uppercase text-white shadow-lg bg-black bg-opacity-50 hover:text-blue-400">
+                        <div class="absolute left-0 right-0 bottom-0 mb-3 mx-px py-2 flex justify-center items-center uppercase text-white shadow-lg bg-black bg-opacity-50 hover:text-blue-400">
                             <div class="text-center ">
                                 <h4>Lăng Bác - Hoàng Thành - Phố cổ</h4>
                                 <p class="my-px">
@@ -355,7 +360,7 @@
             </div>
             <div class="background5 binhLuan container mx-auto py-5 rounded-md">
                 <div class="my-12 focus:outline-none">
-                    <img class="mx-36" src="./content/image/user.png">
+                    <img class="mx-auto w-20 h-20 object-fill" src="./content/image/user.png">
                     <p class="my-3 text-center">
                         <i class="fas fa-star text-blue-500"></i>
                         <i class="fas fa-star text-blue-500"></i>
@@ -377,7 +382,7 @@
                     <span class="text-center block">-tên tour-</span>
                 </div>
                 <div class="my-12 focus:outline-none">
-                    <img class="mx-36" src="./content/image/user.png">
+                    <img class="mx-auto w-20 h-20 object-fill" src="./content/image/user.png">
                     <p class="my-3 text-center">
                         <i class="fas fa-star text-blue-500"></i>
                         <i class="fas fa-star text-blue-500"></i>
@@ -399,7 +404,7 @@
                     <span class="text-center block">-tên tour-</span>
                 </div>
                 <div class="my-12 focus:outline-none">
-                    <img class="mx-36" src="./content/image/user.png">
+                    <img class="mx-auto w-20 h-20 object-fill" src="./content/image/user.png">
                     <p class="my-3 text-center">
                         <i class="fas fa-star text-blue-500"></i>
                         <i class="fas fa-star text-blue-500"></i>
@@ -429,7 +434,7 @@
             <div class="grid grid-cols-3 gap-10">
                 <a class="group" href="">
                     <div class="overflow-hidden rounded-md border border-white">
-                        <img class="transition duration-300 transform group-hover:opacity-80" src="./content/image/201H-370x260.jpg" alt="">
+                        <img class="transition duration-300 transform group-hover:opacity-80 object-fill" src="./content/image/201H-370x260.jpg" alt="" style="width: 352px;height: 247px;">
                     </div>
                     <div class="text-left">
                         <h3 class="text-xl font-bold pt-2">Tất tần tật những kinh nghiệm bạn cần biết
@@ -445,7 +450,7 @@
                 </a>
                 <a class="group" href="">
                     <div class="overflow-hidden rounded-md border border-white">
-                        <img class="transition duration-300 transform group-hover:opacity-80" src="./content/image/201H-370x260.jpg" alt="">
+                        <img class="transition duration-300 transform group-hover:opacity-80 object-fill" src="./content/image/201H-370x260.jpg" alt="" style="width: 352px;height: 247px;">
                     </div>
                     <div class="text-left">
                         <h3 class="text-xl font-bold pt-2">Tất tần tật những kinh nghiệm bạn cần biết
@@ -461,7 +466,7 @@
                 </a>
                 <a class="group" href="">
                     <div class="overflow-hidden rounded-md border border-white">
-                        <img class="transition duration-300 transform group-hover:opacity-80" src="./content/image/201H-370x260.jpg" alt="">
+                        <img class="transition duration-300 transform group-hover:opacity-80 object-fill" src="./content/image/201H-370x260.jpg" alt="" style="width: 352px;height: 247px;">
                     </div>
                     <div class="text-left">
                         <h3 class="text-xl font-bold pt-2">Tất tần tật những kinh nghiệm bạn cần biết

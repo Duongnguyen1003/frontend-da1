@@ -24,11 +24,11 @@
     </style>
 </head>
 
-<body class="nunito relative">
+<body class="nunito relative ">
     <div id="main">
         <header class="relative">
             <img src="./content/image/background/bg-cart.jpg" alt="">
-            <div id="navbar" class="absolute top-0 left-0 right-0 flex mt-8 px-32 bg-blue-300">
+            <div id="navbar" class="absolute top-0 left-0 right-0 flex mt-8 px-32 bg-blue-300 bg-opacity-50">
                 <?php require "menu.php"; ?>
             </div>
             <div class="bg-blue-400 bg-opacity-50 absolute top-0 left-0 right-0">
@@ -199,7 +199,7 @@
             <?php require "footer.php"; ?>
         </footer>
     </div>
-    <div id="selectVoucher" class="absolute bottom-0 mx-170 my-180 items-center border bg-white">
+    <div id="selectVoucher" class="absolute bottom-0 mx-170 my-180 items-center border bg-white overflow-hidden">
         <div class="relative">
             <button id="apply" class="py-2 px-8 absolute border bg-yellow-500  " style="right:20px; top:69px;">Áp dụng</button>
             <form>

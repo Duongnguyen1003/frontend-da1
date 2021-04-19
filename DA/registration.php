@@ -28,7 +28,7 @@
         <div class="bg-blue-400 bg-opacity-50">
             <?php require "headerTop.php"; ?>
         </div>
-        <div class="flex px-32 bg-blue-500 bg-opacity-70">
+        <div class="flex px-32 bg-blue-500 bg-opacity-50">
             <?php require "menu.php"; ?>
         </div>
     </header>
